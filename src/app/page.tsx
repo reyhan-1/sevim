@@ -1,7 +1,6 @@
 'use client';
 import { useState, useEffect, useRef } from 'react';
 import Head from 'next/head';
-import Footer from "@/components/Footer";
 
 export default function Home() {
   const [showVideo, setShowVideo] = useState(false);

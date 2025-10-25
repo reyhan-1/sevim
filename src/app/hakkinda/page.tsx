@@ -17,7 +17,7 @@ export default function HakkindaPage() {
             Hakkında
           </h1>
           <p className="mt-4 text-center text-base sm:text-lg text-gray-600 font-urbanist">
-            Sevim Güleç’in pratiği, biçim ve duygunun kesişiminde gelişir.
+            Sevim Güleç&apos;in resimleri renk ve duygunun kesişimindedir.
           </p>
         </div>
       </section>
