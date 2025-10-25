@@ -71,8 +71,7 @@ export default function ContactClient() {
               </a>
 
               <div className="mt-8 text-sm text-gray-500 font-urbanist">
-                <p>İstanbul, Türkiye</p>
-                <p className="mt-1">Yanıt süresi: 24–48 saat</p>
+                <p>Ankaras, Türkiye</p>
               </div>
             </div>
           </aside>
