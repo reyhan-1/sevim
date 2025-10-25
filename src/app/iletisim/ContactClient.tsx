@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from "react";
-import Link from "next/link";
 
 type FormState = "idle" | "submitting" | "success" | "error";
 
@@ -19,7 +18,6 @@ export default function ContactClient() {
     const payload = Object.fromEntries(formData.entries());
 
     try {
-      // If you add the API route below, this will send the message to your email service.
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -29,8 +27,10 @@ export default function ContactClient() {
       if (!res.ok) throw new Error("Gönderim başarısız görünüyor.");
       setState("success");
       form.reset();
-    } catch (err: any) {
-      setErrorMsg(err?.message || "Bilinmeyen bir hata oluştu.");
+    } catch (err: unknown) {
+      const msg =
+        err instanceof Error ? err.message : "Bilinmeyen bir hata oluştu.";
+      setErrorMsg(msg);
       setState("error");
     }
   }
@@ -54,7 +54,9 @@ export default function ContactClient() {
           {/* Instagram / Info */}
           <aside className="lg:col-span-1">
             <div className="rounded-2xl border border-gray-200 p-6">
-              <h2 className="font-goldman text-2xl text-gray-900 mb-3">Instagram</h2>
+              <h2 className="font-goldman text-2xl text-gray-900 mb-3">
+                Instagram
+              </h2>
               <p className="text-gray-700 font-urbanist leading-relaxed">
                 <span className="block">🎨 Akrilik Dökme · Acrylic Pouring</span>
                 <span className="block">🌊 Akışkan Sanat · Fluid Art</span>
@@ -69,7 +71,7 @@ export default function ContactClient() {
               </a>
 
               <div className="mt-8 text-sm text-gray-500 font-urbanist">
-                <p>Ankara, Türkiye</p>
+                <p>İstanbul, Türkiye</p>
                 <p className="mt-1">Yanıt süresi: 24–48 saat</p>
               </div>
             </div>
@@ -83,7 +85,9 @@ export default function ContactClient() {
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
-                  <label className="block text-sm text-gray-700 mb-1 font-urbanist">Ad Soyad</label>
+                  <label className="block text-sm text-gray-700 mb-1 font-urbanist">
+                    Ad Soyad
+                  </label>
                   <input
                     name="name"
                     type="text"
@@ -94,7 +98,9 @@ export default function ContactClient() {
                 </div>
 
                 <div>
-                  <label className="block text-sm text-gray-700 mb-1 font-urbanist">E-posta</label>
+                  <label className="block text-sm text-gray-700 mb-1 font-urbanist">
+                    E-posta
+                  </label>
                   <input
                     name="email"
                     type="email"
@@ -105,7 +111,9 @@ export default function ContactClient() {
                 </div>
 
                 <div className="sm:col-span-2">
-                  <label className="block text-sm text-gray-700 mb-1 font-urbanist">Konu</label>
+                  <label className="block text-sm text-gray-700 mb-1 font-urbanist">
+                    Konu
+                  </label>
                   <input
                     name="subject"
                     type="text"
@@ -115,7 +123,9 @@ export default function ContactClient() {
                 </div>
 
                 <div className="sm:col-span-2">
-                  <label className="block text-sm text-gray-700 mb-1 font-urbanist">Mesaj</label>
+                  <label className="block text-sm text-gray-700 mb-1 font-urbanist">
+                    Mesaj
+                  </label>
                   <textarea
                     name="message"
                     required
@@ -132,7 +142,8 @@ export default function ContactClient() {
               )}
               {state === "success" && (
                 <p className="mt-4 text-sm text-green-600">
-                  Teşekkürler! Mesajınız alındı. En kısa sürede geri dönüş yapacağım.
+                  Teşekkürler! Mesajınız alındı. En kısa sürede geri dönüş
+                  yapacağım.
                 </p>
               )}
 
@@ -145,7 +156,7 @@ export default function ContactClient() {
                   {state === "submitting" ? "Gönderiliyor..." : "Mesaj Gönder"}
                 </button>
 
-                {/* Fallback: direct mail if needed */}
+                {/* Fallback: direct mail */}
                 <a
                   href="mailto:hello@example.com?subject=İletişim%20Talebi%20-%20Sevim%20Güleç"
                   className="text-sm text-gray-600 hover:text-gray-900 underline"
@@ -156,7 +167,8 @@ export default function ContactClient() {
             </form>
 
             <p className="mt-4 text-xs text-gray-500 font-urbanist">
-              Bu form kişisel verilerinizi yalnızca talebinizi yanıtlamak için kullanır.
+              Bu form kişisel verilerinizi yalnızca talebinizi yanıtlamak için
+              kullanır.
             </p>
           </div>
         </div>

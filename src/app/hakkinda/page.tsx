@@ -39,7 +39,7 @@ export default function HakkindaPage() {
 
             {/* Quick facts */}
             <div className="mt-6 space-y-2">
-              <h2 className="font-urbanist text-l text-gray-900">Sevim Güleç, Ankara'da atölyesinde</h2>
+              <h2 className="font-urbanist text-l text-gray-900">Sevim Güleç, Ankara&apos;da atölyesinde</h2>
               {/*<ul className="font-urbanist text-gray-700 text-sm leading-7">*/}
               {/*  <li><span className="text-gray-500">Temsil: </span>Bağımsız</li>*/}
               {/*  <li><span className="text-gray-500">Yer: </span>İstanbul, Türkiye</li>*/}
@@ -66,13 +66,13 @@ export default function HakkindaPage() {
               </h2>
               <div className="mt-4 font-urbanist text-gray-700 leading-7 space-y-4">
                 <p>
-                  1950 yılında Silifke’de doğdu. Liseyi Silifke’de tamamladıktan sonra Mersin Kız Öğretmen Okulu’ndan mezun oldu. Öğretmenlik kariyerine devam ederken yüksek lisansını tamamladı ve 15 yıl süren öğretmenlik görevinin ardından resim çalışmalarına başladı.
+                  1950 yılında Silifke&apos;de doğdu. Liseyi Silifke&apos;de tamamladıktan sonra Mersin Kız Öğretmen Okulu&apos;ndan mezun oldu. Öğretmenlik kariyerine devam ederken yüksek lisansını tamamladı ve 15 yıl süren öğretmenlik görevinin ardından resim çalışmalarına başladı.
                 </p>
                 <p>
-                  Kayihan Keskinok Resim Atölyesi’nde dört yıl eğitim aldıktan sonra Ankara Beyaz Sanat Galerisi’ni kurdu. Daha sonra Sabri Akça ile Ankara Beyaz Sanat Atölyesi’nde çalışmalarını sürdürdü. Ardından Hikmet Çetinkaya’nın özel ders ve atölye çalışmalarına katılarak sanat hayatına devam etti.
+                  Kayihan Keskinok Resim Atölyesi&apos;nde dört yıl eğitim aldıktan sonra Ankara Beyaz Sanat Galerisi&apos;ni kurdu. Daha sonra Sabri Akça ile Ankara Beyaz Sanat Atölyesi&apos;nde çalışmalarını sürdürdü. Ardından Hikmet Çetinkaya&apos;nın özel ders ve atölye çalışmalarına katılarak sanat hayatına devam etti.
                 </p>
                 <p>
-                  Yıllar içinde birçok kişisel ve karma sergide yer aldı. Sanat yolculuğuna ilham veren ve desteğini esirgemeyen hocası Kayihan Keskinok’a teşekkürlerini sunmaktadır.
+                  Yıllar içinde birçok kişisel ve karma sergide yer aldı. Sanat yolculuğuna ilham veren ve desteğini esirgemeyen hocası Kayihan Keskinok&apos;a teşekkürlerini sunmaktadır.
                 </p>
               </div>
             </section>
