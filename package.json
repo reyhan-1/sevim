@@ -1,6 +1,6 @@
 {
-  "name": "nurol",
-  "version": "0.1.0",
+  "name": "sevim",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",

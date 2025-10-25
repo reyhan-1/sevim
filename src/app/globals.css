@@ -6,14 +6,16 @@
 }
 
 :root {
-  --font-cinzel: 'Cinzel', serif;
+  --font-goldman: 'Goldman', sans-serif;
+  --font-urbanist: 'Urbanist', sans-serif;
 }
 
-.cinzel-heading {
-  font-family: var(--font-cinzel);
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: 400;
+.font-goldman {
+  font-family: var(--font-goldman);
+}
+
+.font-urbanist {
+  font-family: var(--font-urbanist);
 }
 
 img {
@@ -24,5 +26,4 @@ img {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }

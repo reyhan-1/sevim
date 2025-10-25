@@ -5,24 +5,21 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   const [showVideo, setShowVideo] = useState(false);
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
 
   useEffect(() => {
     setShowVideo(true);
   }, []);
 
-
   return (
     <>
       <Head>
-        <title>Reyhan Uyanık</title>
+        <title>Sevim Güleç</title>
       </Head>
 
       <div className="min-h-screen w-full relative overflow-hidden bg-black">
-        {/* Show black screen for 1 sec before video loads */}
-        {!showVideo && (
-          <div className="absolute inset-0 bg-black z-20"></div>
-        )}
+        {/* Show black screen before video mounts */}
+        {!showVideo && <div className="absolute inset-0 bg-black z-30" />}
 
         {/* Video background */}
         {showVideo && (
@@ -38,17 +35,38 @@ export default function Home() {
           />
         )}
 
-        {/* Overlay for darkening */}
-        <div className="absolute inset-0 bg-black/30 z-10"></div>
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/30 z-10" />
 
-        <nav className="flex space-x-8 text-lg md:text-xl font-medium">
-          <a href="/resimler" className="hover:text-cyan-600">Resimler</a>
-          <a href="/sergiler" className="hover:text-cyan-600">Sergiler</a>
-          <a href="/hakkinda" className="hover:text-cyan-600">Hakkında</a>
-          <a href="/iletisim" className="hover:text-cyan-600">İletişim</a>
-        </nav>
+        {/* Centered header + nav */}
+        <header className="absolute inset-0 z-20 flex items-center justify-center">
+          <div className="text-center px-6 py-8">
+            <h1 className="font-goldman text-white drop-shadow-md tracking-wide text-4xl sm:text-5xl md:text-6xl">
+              Sevim Güleç
+            </h1>
+
+            <nav
+              aria-label="Primary"
+              className="mt-6 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-lg md:text-xl"
+            >
+              <a href="/resimler" className="font-goldman text-white/90 hover:text-cyan-300 transition-colors">
+                Resimler
+              </a>
+              <a href="/sergiler" className="font-goldman  text-white/90 hover:text-cyan-300 transition-colors">
+                Sergiler
+              </a>
+              <a href="/hakkinda" className="font-goldman  text-white/90 hover:text-cyan-300 transition-colors">
+                Hakkında
+              </a>
+              <a href="/iletisim" className="font-goldman  text-white/90 hover:text-cyan-300 transition-colors">
+                İletişim
+              </a>
+            </nav>
+          </div>
+        </header>
+
+
       </div>
-
     </>
   );
 }
