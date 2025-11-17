@@ -178,7 +178,7 @@ export default function Home() {
                       meta: '2010 · Yağlıboya, tuval',
                     },
                     {
-                      src: '/yagliboya-manolya-60x60-artankara2024.JPG',
+                      src: '/yagliboya-manolya-60x60-artankara2024.jpg',
                       title: '',
                       meta: '2024 · Akrilik & yağlıboya, tuval',
                     },

@@ -53,7 +53,7 @@ export default function HakkindaPage() {
     <div className="relative w-full aspect-[3/4] overflow-hidden rounded-3xl border border-neutral-200/80 bg-neutral-100 shadow-lg">
       {/* Atölye fotoğrafı */}
       <Image
-        src="/atolyekahve.jpg"   // ensure this exists in /public
+        src="/atolyekahve.JPG"   // ensure this exists in /public
         alt="Sevim Güleç atölyesinde"
         fill
         className="object-contain object-center"
