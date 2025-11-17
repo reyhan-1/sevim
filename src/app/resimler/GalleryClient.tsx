@@ -66,7 +66,6 @@ const artworks: Artwork[] = [
   { id: 'mixed-60x50', title: '', year: '', medium: 'Karışık teknik (akrilik & yağlıboya)', size: '60 × 50 cm', src: '/mixed-60x50.jpg', category: 'akrilik' },
 
   // --- A K R İ L İ K  M A N O L Y A ---
-  { id: 'akrilik-manolya-30x30', title: 'Manolya', year: '', medium: 'Akrilik, tuval', size: '30 × 30 cm', src: '/akrilik-manolya-30x30art-ankara2024.JPG', category: 'akrilik-manolya' },
   { id: 'akrilik-manolya-40x60', title: 'Manolya', year: '', medium: 'Akrilik, tuval', size: '40 × 60 cm', src: '/akrilik-manolya-40x60-artankara2024.JPG', category: 'akrilik-manolya' },
   { id: 'akrilik-manolya-50x70', title: 'Manolya', year: '', medium: 'Akrilik, tuval', size: '50 × 70 cm', src: '/akrilik-manolya-50-70.jpg', category: 'akrilik-manolya' },
   { id: 'akrilik-manolya-50x50-1', title: 'Manolya', year: '', medium: 'Akrilik, tuval', size: '50 × 50 cm', src: '/akrilik-manolya-50x50-artankara2025.jpg', category: 'akrilik-manolya' },
@@ -83,6 +82,7 @@ const artworks: Artwork[] = [
   { id: 'akrilik-manolya-2025-alt', title: 'Manolya', year: '', medium: 'Akrilik, tuval', size: '', src: '/akrilik-manolya-artankara-2025-3.JPG', category: 'akrilik-manolya' },
 
   // --- Y A Ğ L I B O Y A  M A N O L Y A ---
+      { id: 'akrilik-manolya-30x30', title: 'Manolya', year: '', medium: 'Akrilik, tuval', size: '30 × 30 cm', src: '/akrilik-manolya-30x30art-ankara2024.JPG', category: 'yagliboya-manolya' },
   { id: 'yagliboya-art-2024-main',    title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '',             src: '/yagliboya-manolya-artankara2024.JPG',          category: 'yagliboya-manolya' },
   { id: 'yagliboya-art-2024-main-2',  title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '',             src: '/yagli-boya-manolya-artankara2024.JPG',        category: 'yagliboya-manolya' },
   { id: 'yagliboya-40x50',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '50 × 50 cm',   src: '/yagli-manolya-40x50-artankara2024.JPG',       category: 'yagliboya-manolya' },
