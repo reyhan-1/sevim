@@ -349,12 +349,11 @@ export default function Home() {
                   Reel · Akrilik Pouring
                 </p>
                 <p className="mt-3 font-urbanist text-sm text-neutral-100 leading-relaxed">
-                  40×60 tual üzerine akışkan sanat; renklerin akışı ve denge
-                  arayışı.
+                  Akrilik dökme teknikleri
                 </p>
                 <div className="mt-4 flex-1" />
                 <a
-                  href="https://www.instagram.com/p/DP1G7aWjFOs/"
+                  href="https://www.instagram.com/p/DQrbu-2DJ8i/"
                   target="_blank"
                   rel="noreferrer"
                   className="mt-4 inline-flex text-xs font-urbanist uppercase tracking-[0.22em] text-neutral-300 hover:text-white"
@@ -389,12 +388,11 @@ export default function Home() {
                   Reel · 40×40 Akrilik
                 </p>
                 <p className="mt-3 font-urbanist text-sm text-neutral-100 leading-relaxed">
-                  Flip cup ve kaydırma tekniğiyle yapılmış akrilik dökme
-                  çalışma.
+                  Open cup tekniğiyle yapılmış akrilik dökme çalışma.
                 </p>
                 <div className="mt-4 flex-1" />
                 <a
-                  href="https://www.instagram.com/reel/DQ7M92_Dse6/"
+                  href="https://www.instagram.com/p/DPwY7P-DE__/"
                   target="_blank"
                   rel="noreferrer"
                   className="mt-4 inline-flex text-xs font-urbanist uppercase tracking-[0.22em] text-neutral-300 hover:text-white"
