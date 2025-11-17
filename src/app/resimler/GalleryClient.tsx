@@ -45,7 +45,6 @@ const artworks: Artwork[] = [
   { id: 'akrilik-20', title: '', year: '', medium: 'Akrilik, tuval', size: '40 × 70 cm', src: '/akrilik-40x70.jpg', category: 'akrilik' },
   { id: 'akrilik-21', title: 'Okyanus', year: '', medium: 'Akrilik, tuval', size: '40 × 70 cm', src: '/akrilik-40x70-okyanus.jpg', category: 'akrilik' },
   { id: 'akrilik-22', title: '', year: '', medium: 'Akrilik, tuval', size: '40 × 80 cm', src: '/akrilik-40x80.jpg', category: 'akrilik' },
-  // { id: 'akrilik-23', ... } // commented out intentionally
   { id: 'akrilik-24', title: '', year: '', medium: 'Akrilik, tuval', size: '50 × 50 cm', src: '/akrilik-50x50.JPG', category: 'akrilik' },
   { id: 'akrilik-25', title: '', year: '', medium: 'Akrilik, tuval', size: '50 × 70 cm', src: '/akrilik-50x70.jpg', category: 'akrilik' },
   { id: 'akrilik-26', title: '', year: '', medium: 'Akrilik, tuval', size: '50 × 70 cm', src: '/akrilik-50x70-4.jpg', category: 'akrilik' },
@@ -54,7 +53,7 @@ const artworks: Artwork[] = [
   { id: 'akrilik-29', title: '', year: '', medium: 'Akrilik, tuval', size: '80 × 200 cm', src: '/akrilik-80x200.JPG', category: 'akrilik' },
   { id: 'akrilik-30', title: '', year: '', medium: 'Akrilik, tuval', size: '', src: '/akrilik-80x802.jpg', category: 'akrilik' },
 
-  // Yuvarlak / nazar – still akrilik
+  // Yuvarlak / nazar
   { id: 'akrilik-nazar', title: 'Nazar', year: '', medium: 'Akrilik, yuvarlak tuval', size: '', src: '/akrilik-nazar.JPG', category: 'akrilik' },
   { id: 'akrilik-yuvarlak-1', title: '', year: '', medium: 'Akrilik, yuvarlak tuval', size: 'Ø 40 cm', src: '/akrilik-yuvarlak-cap40.JPG', category: 'akrilik' },
   { id: 'akrilik-yuvarlak-2', title: '', year: '', medium: 'Akrilik, yuvarlak tuval', size: 'Ø 40 cm', src: '/akrilik-yuvarlak-cap40-2.JPG', category: 'akrilik' },
@@ -62,7 +61,7 @@ const artworks: Artwork[] = [
   { id: 'akrilik-yuvarlak-4', title: '', year: '', medium: 'Akrilik, yuvarlak tuval', size: 'Ø 40 cm', src: '/akrilik-yuvarlak-cap40-4.JPG', category: 'akrilik' },
   { id: 'akrilik-yuvarlak-5', title: '', year: '', medium: 'Akrilik, yuvarlak tuval', size: 'Ø 40 cm', src: '/akrilik-yuvarlak-cap40-5.jpg', category: 'akrilik' },
 
-  // Mixed – conceptually between akrilik & yağlı, we group under akrilik
+  // Mixed – still in akrilik block
   { id: 'mixed-40x70', title: '', year: '', medium: 'Karışık teknik (akrilik & yağlıboya)', size: '40 × 70 cm', src: '/mixed-40x70.jpg', category: 'akrilik' },
   { id: 'mixed-60x50', title: '', year: '', medium: 'Karışık teknik (akrilik & yağlıboya)', size: '60 × 50 cm', src: '/mixed-60x50.jpg', category: 'akrilik' },
 
@@ -73,7 +72,6 @@ const artworks: Artwork[] = [
   { id: 'akrilik-manolya-50x50-1', title: 'Manolya', year: '', medium: 'Akrilik, tuval', size: '50 × 50 cm', src: '/akrilik-manolya-50x50-artankara2025.jpg', category: 'akrilik-manolya' },
   { id: 'akrilik-manolya-50x50-2', title: 'Manolya', year: '', medium: 'Akrilik, tuval', size: '50 × 50 cm', src: '/akrilik-manolya-50x50-artankara2025-2.jpg', category: 'akrilik-manolya' },
   { id: 'akrilik-manolya-60x50-1', title: 'Manolya', year: '', medium: 'Akrilik, tuval', size: '60 × 50 cm', src: '/akrilik-manolya-60x50-artankara2025.jpg', category: 'akrilik-manolya' },
-  // { id: 'akrilik-manolya-60x50-2', ... } // skipped
   { id: 'akrilik-manolya-70x50', title: 'Manolya Turuncu', year: '', medium: 'Akrilik, tuval', size: '70 × 50 cm', src: '/akrilik-manolya-70x50-artankara20250turuncu.jpg', category: 'akrilik-manolya' },
   { id: 'akrilik-manolya-80x40', title: 'Manolya', year: '', medium: 'Akrilik, tuval', size: '80 × 40 cm', src: '/akrilik-manolya-80x40-artankara2025.JPG', category: 'akrilik-manolya' },
   { id: 'akrilik-manolya-100x100', title: 'Manolya', year: '', medium: 'Akrilik, tuval', size: '100 × 100 cm', src: '/akrilik-manolya-100x100.JPG', category: 'akrilik-manolya' },
@@ -85,23 +83,23 @@ const artworks: Artwork[] = [
   { id: 'akrilik-manolya-2025-alt', title: 'Manolya', year: '', medium: 'Akrilik, tuval', size: '', src: '/akrilik-manolya-artankara-2025-3.JPG', category: 'akrilik-manolya' },
 
   // --- Y A Ğ L I B O Y A  M A N O L Y A ---
-  { id: 'yagliboya-art-2024-main',    title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '',                src: '/yagliboya-manolya-artankara2024.JPG',           category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-2024-main-2',  title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '',                src: '/yagli-boya-manolya-artankara2024.JPG',         category: 'yagliboya-manolya' },
-  { id: 'yagliboya-40x50',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '50 × 50 cm',      src: '/yagli-manolya-40x50-artankara2024.JPG',        category: 'yagliboya-manolya' },
-  { id: 'yagliboya-50x50',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '50 × 50 cm',      src: '/yagli-manolya-50x50-artankara2024-3.jpg',      category: 'yagliboya-manolya' },
-  { id: 'yagliboya-30x30-1',          title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '30 × 30 cm',      src: '/yagliboya-manolya-30x30-artankara2024.jpg',    category: 'yagliboya-manolya' },
-  { id: 'yagliboya-30x30-2',          title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '30 × 30 cm',      src: '/yagliboya-manolya-30x30-artankara2024-3.JPG',  category: 'yagliboya-manolya' },
-  { id: 'yagliboya-40x80',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '40 × 80 cm',      src: '/yagliboya-manolya-40x80-artankara2024-2.jpg',  category: 'yagliboya-manolya' },
-  { id: 'yagliboya-45x45',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '45 × 45 cm',      src: '/yagliboya-manolya-45x45-artankara2024.jpg',    category: 'yagliboya-manolya' },
-  { id: 'yagliboya-60x60-1',          title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '60 × 60 cm',      src: '/yagliboya-manolya-60x60-artankara2024.jpg',    category: 'yagliboya-manolya' },
-  { id: 'yagliboya-60x60-2',          title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '60 × 60 cm',      src: '/yagliboya-manolya-60x60-artankara2024-2.JPG',  category: 'yagliboya-manolya' },
-  { id: 'yagliboya-100x100',          title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '100 × 100 cm',    src: '/yagliboya-manolya-100x100-artankara2024.JPG',  category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-3',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '',                src: '/yagliboya-manolya-artankara2024-3.JPG',        category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-4',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '',                src: '/yagliboya-manolya-artankara2024-4.JPG',        category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-5',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '',                src: '/yagliboya-manolya-artankara2024-5.JPG',        category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-6',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '',                src: '/yagliboya-manolya-artankara2024-6.JPG',        category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-2024-main',    title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '',             src: '/yagliboya-manolya-artankara2024.JPG',          category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-2024-main-2',  title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '',             src: '/yagli-boya-manolya-artankara2024.JPG',        category: 'yagliboya-manolya' },
+  { id: 'yagliboya-40x50',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '50 × 50 cm',   src: '/yagli-manolya-40x50-artankara2024.JPG',       category: 'yagliboya-manolya' },
+  { id: 'yagliboya-50x50',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '50 × 50 cm',   src: '/yagli-manolya-50x50-artankara2024-3.jpg',     category: 'yagliboya-manolya' },
+  { id: 'yagliboya-30x30-1',          title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '30 × 30 cm',   src: '/yagliboya-manolya-30x30-artankara2024.jpg',   category: 'yagliboya-manolya' },
+  { id: 'yagliboya-30x30-2',          title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '30 × 30 cm',   src: '/yagliboya-manolya-30x30-artankara2024-3.JPG', category: 'yagliboya-manolya' },
+  { id: 'yagliboya-40x80',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '40 × 80 cm',   src: '/yagliboya-manolya-40x80-artankara2024-2.jpg', category: 'yagliboya-manolya' },
+  { id: 'yagliboya-45x45',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '45 × 45 cm',   src: '/yagliboya-manolya-45x45-artankara2024.jpg',   category: 'yagliboya-manolya' },
+  { id: 'yagliboya-60x60-1',          title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '60 × 60 cm',   src: '/yagliboya-manolya-60x60-artankara2024.jpg',   category: 'yagliboya-manolya' },
+  { id: 'yagliboya-60x60-2',          title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '60 × 60 cm',   src: '/yagliboya-manolya-60x60-artankara2024-2.JPG', category: 'yagliboya-manolya' },
+  { id: 'yagliboya-100x100',          title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '100 × 100 cm', src: '/yagliboya-manolya-100x100-artankara2024.JPG', category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-3',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '',             src: '/yagliboya-manolya-artankara2024-3.JPG',       category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-4',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '',             src: '/yagliboya-manolya-artankara2024-4.JPG',       category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-5',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '',             src: '/yagliboya-manolya-artankara2024-5.JPG',       category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-6',            title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '',             src: '/yagliboya-manolya-artankara2024-6.JPG',       category: 'yagliboya-manolya' },
 
-  // --- E S K İ  M A N O L Y A  (K L A S İ K) ---
+  // Eski Manolya (klasik)
   { id: 'manolya2', title: 'Manolya', year: '', medium: 'Yağlıboya, tuval', size: '', src: '/manolya2.JPG', category: 'yagliboya-manolya' },
 ];
 
@@ -152,6 +150,21 @@ export default function ResimlerPage() {
     },
   ];
 
+  const handlePillClick = (id: string) => {
+    if (typeof document === 'undefined') return;
+    const el = document.getElementById(id);
+    if (!el) return;
+
+    const rect = el.getBoundingClientRect();
+    const offset = 120; // approximate navbar + spacing
+    const scrollTop = window.scrollY + rect.top - offset;
+
+    window.scrollTo({
+      top: scrollTop,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <main className="min-h-screen bg-[#f7f3ee] text-neutral-900">
       {/* Parallax Hero */}
@@ -172,7 +185,7 @@ export default function ResimlerPage() {
             </h1>
             <p className="max-w-xl font-urbanist text-base sm:text-lg text-neutral-700 leading-relaxed">
               Sevim Güleç’in seçili yağlıboya, akrilik ve karışık teknik
-              eserlerinden küratöryel bir seçki.
+              eserlerinden bir seçki.
             </p>
           </div>
         </div>
@@ -182,12 +195,36 @@ export default function ResimlerPage() {
       <section className="relative -mt-10 pb-24 sm:-mt-16 sm:pb-32">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="rounded-3xl border border-black/[0.04] bg-white/95 shadow-[0_28px_120px_rgba(15,23,42,0.18)] backdrop-blur-sm p-6 sm:p-8 lg:p-10 space-y-14">
+
+            {/* Filter / Section pills */}
+            <div className="flex flex-wrap items-center gap-3 sm:gap-4">
+              <p className="font-urbanist text-[11px] uppercase tracking-[0.3em] text-neutral-400">
+                Bölümler
+              </p>
+              <div className="flex flex-wrap gap-2 sm:gap-3">
+                {groups.map((group) => (
+                  <button
+                    key={group.key}
+                    type="button"
+                    onClick={() => handlePillClick(group.key)}
+                    className="rounded-full border border-neutral-200 bg-neutral-50 px-3.5 py-1.5 text-xs font-urbanist uppercase tracking-[0.22em] text-neutral-600 transition hover:border-neutral-900 hover:bg-neutral-900 hover:text-neutral-50"
+                  >
+                    {group.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
             {groups.map((group, groupIndex) => {
               const groupItems = artworks.filter((a) => a.category === group.key);
               if (!groupItems.length) return null;
 
               return (
-                <section key={group.key} className="space-y-6">
+                <section
+                  key={group.key}
+                  id={group.key}
+                  className="space-y-6 scroll-mt-32"
+                >
                   {/* Divider between sections (except first) */}
                   {groupIndex > 0 && (
                     <div className="h-px w-full bg-gradient-to-r from-transparent via-neutral-200 to-transparent" />
