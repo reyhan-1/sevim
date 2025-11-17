@@ -83,7 +83,7 @@ const artworks: Artwork[] = [
 
   // --- Y A Ğ L I B O Y A  M A N O L Y A ---
   { id: 'yagliboya-art-2024-main', title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '', src: '/yagliboya-manolya-artankara2024.JPG' },
-  { id: 'yagliboya-art-2024-main', title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '', src: '/yagli-boya-manolya-artankara2024.JPG' },
+  { id: 'yagliboya-art-2024-main-2', title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '', src: '/yagli-boya-manolya-artankara2024.JPG' },
   { id: 'yagliboya-40x50', title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '50 × 50 cm', src: '/yagli-manolya-40x50-artankara2024.JPG' },
   { id: 'yagliboya-50x50', title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '50 × 50 cm', src: '/yagli-manolya-50x50-artankara2024-3.jpg' },
   { id: 'yagliboya-30x30-1', title: 'Manolya', year: '2024', medium: 'Yağlıboya, tuval', size: '30 × 30 cm', src: '/yagliboya-manolya-30x30-artankara2024.jpg' },
@@ -152,37 +152,38 @@ export default function ResimlerPage() {
         </div>
       </section>
 
-      {/* Floating Art Grid */}
+      {/* Floating Art Grid – Bento / Masonry */}
       <section className="relative -mt-10 pb-24 sm:-mt-16 sm:pb-32">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="rounded-3xl border border-black/[0.04] bg-white/95 shadow-[0_28px_120px_rgba(15,23,42,0.18)] backdrop-blur-sm p-8 sm:p-10 lg:p-14">
-            <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7">
+          <div className="rounded-3xl border border-black/[0.04] bg-white/95 shadow-[0_28px_120px_rgba(15,23,42,0.18)] backdrop-blur-sm p-6 sm:p-8 lg:p-10">
+            {/* Masonry-style columns */}
+            <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 [column-fill:balance]">
               {artworks.map((art, idx) => (
-                <li key={art.id}>
-                  <button
-                    onClick={() => setOpenIndex(idx)}
-                    className="group block w-full overflow-hidden rounded-2xl border border-neutral-200/70 bg-neutral-50/80 shadow-sm transition transform hover:-translate-y-[3px] hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900"
-                    aria-label={art.title || `Eser ${idx + 1}`}
-                  >
-                    <div className="relative w-full aspect-[4/5] overflow-hidden">
+                <button
+                  key={art.id}
+                  onClick={() => setOpenIndex(idx)}
+                  className="mb-6 w-full break-inside-avoid text-left group focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900"
+                  aria-label={art.title || `Eser ${idx + 1}`}
+                >
+                  <div className="overflow-hidden rounded-2xl border border-neutral-200/70 bg-neutral-50/80 shadow-sm transition-transform duration-300 group-hover:-translate-y-[3px] group-hover:shadow-lg">
+                    <div className="relative w-full">
                       <Image
                         src={art.src}
                         alt={art.alt || art.title || 'Sevim Güleç eseri'}
-                        fill
-                        className="object-cover transition-transform duration-[900ms] ease-out group-hover:scale-105"
-                        sizes="(max-width: 1024px) 50vw, 25vw"
-                        priority={idx < 8}
+                        width={1200}
+                        height={1600}
+                        className="w-full h-auto object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.03]"
                       />
                     </div>
 
-                    <div className="px-4 py-3 text-left">
+                    <div className="px-4 py-3">
                       {art.title && (
                         <h3 className="font-goldman text-sm text-neutral-900 tracking-tight">
                           {art.title}
                         </h3>
                       )}
 
-                      <p className="mt-1 font-urbanist text-xs uppercase tracking-wider text-neutral-500">
+                      <p className="mt-1 font-urbanist text-xs uppercase tracking-[0.22em] text-neutral-500">
                         {art.year && `${art.year} · `}{art.medium}
                       </p>
 
@@ -192,10 +193,10 @@ export default function ResimlerPage() {
                         </p>
                       )}
                     </div>
-                  </button>
-                </li>
+                  </div>
+                </button>
               ))}
-            </ul>
+            </div>
           </div>
         </div>
       </section>
