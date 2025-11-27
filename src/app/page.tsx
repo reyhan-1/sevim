@@ -129,7 +129,7 @@ export default function Home() {
                     {
                       src: '/akrilik-9.JPG',
                       title: '',
-                      meta: '2024 · Akrilik, tuval',
+                      meta: '2025 · Akrilik, tuval',
                     },
                     {
                       src: '/akrilik-25x30.jpg',
@@ -175,17 +175,17 @@ export default function Home() {
                     {
                       src: '/manolya2.JPG',
                       title: '',
-                      meta: '2010 · Yağlıboya, tuval',
+                      meta: '2010 · T.Ü.Y',
                     },
                     {
                       src: '/yagliboya-manolya-60x60-artankara2024.jpg',
                       title: '',
-                      meta: '2024 · Akrilik & yağlıboya, tuval',
+                      meta: '2024 · T.Ü.Y',
                     },
                     {
                       src: '/yagliboya-manolya-30x30-artankara2024.jpg',
-                      title: 'Gün Işığı',
-                      meta: '2023 · Yağlıboya, tuval',
+                      title: '',
+                      meta: '2023 · T.Ü.Y',
                     },
                   ].map((item) => (
                     <figure
@@ -226,17 +226,17 @@ export default function Home() {
                     {
                       src: '/akrilik-manolya-artankara-2025-3.JPG',
                       title: '',
-                      meta: '2024 · Akrilik & yağlıboya, tuval',
+                      meta: '2024 · Karışık Teknik',
                     },
                     {
                       src: '/akrilik-manolya-100x100.JPG',
                       title: '',
-                      meta: '2022 · Yağlıboya, tuval',
+                      meta: '2024 · Karışık Teknik',
                     },
                     {
                       src: '/akrilik-manolya-artankara2025-3.JPG',
                       title: '',
-                      meta: '2024 · Akrilik & yağlıboya, tuval',
+                      meta: '2024 · Karışık Teknik',
                     },
                   ].map((item) => (
                     <figure
