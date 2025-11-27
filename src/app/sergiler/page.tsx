@@ -26,10 +26,6 @@ export default function SergilerPage() {
               <h1 className="font-goldman text-4xl sm:text-5xl md:text-6xl tracking-tight text-neutral-900 text-left">
                 Sergiler
               </h1>
-              <p className="max-w-xl font-urbanist text-base sm:text-lg text-neutral-700 leading-relaxed">
-                ArtAnkara katılımları, uluslararası fuarlar ve yıllar içinde yer
-                aldığı sayısız karma sergi.
-              </p>
             </div>
 
             <div className="flex items-center gap-4 text-xs font-urbanist text-neutral-500">
@@ -136,9 +132,7 @@ export default function SergilerPage() {
               </div>
 
               <p className="mt-5 max-w-2xl font-urbanist text-sm text-neutral-600 leading-relaxed">
-                Sevim Güleç, Türkiye ve yurtdışında sayısız karma sergi ve
-                proje içinde yer almıştır. Detaylı sergi listesi, talep eden
-                galeriler ve koleksiyonerlerle ayrıca paylaşılmaktadır.
+                Sevim Güleç, Türkiye’de gerçekleştirdiği fuar katılımlarının ötesinde, uluslararası platformlarda da görünürlük kazanmış; yurt içi ve yurt dışında birçok karma sergi ve projede eserleriyle yer almıştır.
               </p>
             </section>
 

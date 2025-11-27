@@ -77,22 +77,25 @@ export default function PostersGallery() {
   return (
     <>
       {/* Grid */}
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {posters.map((poster, idx) => (
           <button
             key={poster.id}
             type="button"
             onClick={() => setOpenIndex(idx)}
-            className="group overflow-hidden rounded-2xl border border-neutral-200/80 bg-neutral-50/80 shadow-sm transition-transform duration-500 hover:-translate-y-[3px] hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900"
+            className="group rounded-2xl border border-neutral-200/80 bg-neutral-50/80 shadow-sm transition-transform duration-500 hover:-translate-y-[3px] hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900"
           >
-            <div className="relative aspect-[4/5] w-full overflow-hidden">
+            {/* FULL IMAGE — NO CROPPING */}
+            <div className="relative w-full aspect-[3/4] bg-white flex items-center justify-center overflow-hidden">
               <Image
                 src={poster.src}
                 alt={poster.alt}
                 fill
-                className="object-cover transition-transform duration-[900ms] ease-out group-hover:scale-105"
+                className="object-contain p-3 transition-transform duration-[900ms] ease-out group-hover:scale-[1.02]"
+                sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
               />
             </div>
+
             <div className="px-4 py-3">
               <p className="font-urbanist text-sm text-neutral-900">
                 {poster.caption}
@@ -140,6 +143,7 @@ export default function PostersGallery() {
             >
               ‹
             </button>
+
             <button
               type="button"
               onClick={next}
