@@ -61,12 +61,7 @@ export default function ContactClient() {
               </p>
             </div>
 
-            <div className="flex items-center gap-4 text-xs font-urbanist text-neutral-500">
-              <span className="h-px w-10 bg-neutral-400/60" />
-              <span className="tracking-[0.22em] uppercase">
-                Sanatçı İletişimi
-              </span>
-            </div>
+
           </div>
         </div>
       </section>
@@ -90,6 +85,7 @@ export default function ContactClient() {
                       🌊 Akışkan Sanat · Fluid Art
                     </span>
                   </p>
+                  <span className="block">
                   <a
                     href="https://www.instagram.com/sevimgulecart"
                     target="_blank"
@@ -98,6 +94,8 @@ export default function ContactClient() {
                   >
                     @sevimgulecart
                   </a>
+                    </span>
+                  <span className="block">
                   <a
                       href="mailto:hello@example.com?subject=İletişim%20Talebi%20-%20Sevim%20Güleç"
                     target="_blank"
@@ -106,6 +104,7 @@ export default function ContactClient() {
                   >
                     sevimgulecart@gmail.com
                   </a>
+                    </span>
                 </div>
 
                 <div className="h-px w-16 bg-neutral-200" />
@@ -121,6 +120,14 @@ export default function ContactClient() {
 
               {/* Form */}
               <div className="lg:col-span-1">
+
+                <div className="flex items-center gap-4 text-xs font-urbanist text-neutral-500 m-2">
+              <span className="h-px w-10 bg-neutral-400/60" />
+              <span className="tracking-[0.22em] uppercase">
+                Mesaj Formu
+              </span>
+            </div>
+
                 <form
                   onSubmit={onSubmit}
                   className="rounded-2xl border border-neutral-200/80 bg-neutral-50/60 px-5 py-6 sm:px-7 sm:py-8"

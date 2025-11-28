@@ -115,7 +115,7 @@ export default function Home() {
                     Akrilik Seçkisi
                   </h3>
                   <p className="hidden sm:block font-urbanist text-xs uppercase tracking-[0.25em] text-neutral-500">
-                    Akışkan yüzeyler · Modern renkler
+                    Akışkan Sanat · Modern renkler
                   </p>
                 </div>
 
@@ -168,6 +168,9 @@ export default function Home() {
                   <h3 className="font-goldman text-xl sm:text-2xl tracking-tight text-neutral-900">
                     Manolya Serisi
                   </h3>
+                  <p className="hidden sm:block font-urbanist text-xs uppercase tracking-[0.25em] text-neutral-500">
+                    Klasik • Zamansız
+                  </p>
                 </div>
 
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
@@ -219,6 +222,9 @@ export default function Home() {
                   <h3 className="font-goldman text-xl sm:text-2xl tracking-tight text-neutral-900">
                     Karışık Teknik
                   </h3>
+                  <p className="hidden sm:block font-urbanist text-xs uppercase tracking-[0.25em] text-neutral-500">
+                    Manolyanın akrilik üzeri çağdaş yorumu
+                  </p>
                 </div>
 
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
@@ -315,7 +321,7 @@ export default function Home() {
         </section>
 
         {/* INSTAGRAM SECTION – DIFFERENT BACKGROUND */}
-        <section className="bg-neutral-950 text-neutral-50">
+        <section className="bg-blue-950 text-neutral-50">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-14 sm:py-18 lg:py-20">
             <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
               <div>

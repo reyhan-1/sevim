@@ -108,6 +108,13 @@ const indexById = new Map<string, number>(
   artworks.map((a, i) => [a.id, i])
 );
 
+// helper: remove duplicate src values (in case they exist)
+function uniqueBySrc(items: Artwork[]): Artwork[] {
+  return items.filter((art, index, self) =>
+    self.findIndex((a) => a.src === art.src) === index
+  );
+}
+
 export default function ResimlerPage() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
@@ -216,7 +223,9 @@ export default function ResimlerPage() {
             </div>
 
             {groups.map((group, groupIndex) => {
-              const groupItems = artworks.filter((a) => a.category === group.key);
+              const groupItems = uniqueBySrc(
+                artworks.filter((a) => a.category === group.key)
+              );
               if (!groupItems.length) return null;
 
               return (
@@ -266,6 +275,8 @@ export default function ResimlerPage() {
                                 width={1200}
                                 height={1600}
                                 className="w-full h-auto object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.03]"
+                                loading="lazy"
+                                sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                               />
                             </div>
 
