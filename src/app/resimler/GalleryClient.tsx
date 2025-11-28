@@ -23,47 +23,47 @@ type Artwork = {
 
 const artworks: Artwork[] = [
   // --- A K R İ L İ K ---
-  { id: 'akrilik-01', title: '', year: '', medium: 'Akrilik, tuval', size: '60 x 90 cm', src: '/akrilik.JPG', category: 'akrilik' },
-  { id: 'akrilik-02', title: '', year: '', medium: 'Akrilik, tuval', size: '30 × 30 cm (4’lü seri)', src: '/akrilik30-30-4lu4.JPG', category: 'akrilik' },
-  { id: 'akrilik-03', title: '', year: '', medium: 'Akrilik, tuval', size: '40 x 40 cm', src: '/akrilik-5.jpg', category: 'akrilik' },
-  { id: 'akrilik-04', title: '', year: '', medium: 'Akrilik, tuval', size: '40 x 40 cm', src: '/akrilik-6.JPG', category: 'akrilik' },
-  { id: 'akrilik-05', title: '', year: '', medium: 'Akrilik, tuval', size: '40 x 40 cm', src: '/akrilik-8.JPG', category: 'akrilik' },
-  { id: 'akrilik-06', title: '', year: '', medium: 'Akrilik, tuval', size: '25 x 25 cm', src: '/akrilik-9.JPG', category: 'akrilik' },
-  { id: 'akrilik-07', title: '', year: '', medium: 'Akrilik, tuval', size: '25 x 25 cm', src: '/akrilik-10.JPG', category: 'akrilik' },
-  { id: 'akrilik-08', title: '', year: '', medium: 'Akrilik, tuval', size: '25 × 25 cm', src: '/akrilik-25x30.jpg', category: 'akrilik' },
-  { id: 'akrilik-09', title: '', year: '', medium: 'Akrilik, tuval', size: '25 × 30 cm', src: '/akrilik-25x30-2.JPG', category: 'akrilik' },
-  { id: 'akrilik-10', title: '', year: '', medium: 'Akrilik, tuval', size: '30 × 30 cm (4’lü seri)', src: '/akrilik-30-30-4lu2.JPG', category: 'akrilik' },
-  { id: 'akrilik-11', title: '', year: '', medium: 'Akrilik, tuval', size: '30 × 30 cm', src: '/akrilik-30x30.jpg', category: 'akrilik' },
-  { id: 'akrilik-12', title: '', year: '', medium: 'Akrilik, tuval', size: '30 × 30 cm (4’lü seri)', src: '/akrilik-30x30-4lu1.JPG', category: 'akrilik' },
-  { id: 'akrilik-13', title: '', year: '', medium: 'Akrilik, tuval', size: '30 × 30 cm (4’lü seri)', src: '/akrilik-30x30-4lu3.JPG', category: 'akrilik' },
-  { id: 'akrilik-14', title: '', year: '', medium: 'Akrilik, tuval', size: '40 × 40 cm', src: '/akrilik-40x40.jpg', category: 'akrilik' },
-  { id: 'akrilik-15', title: '', year: '', medium: 'Akrilik, tuval', size: '40 × 40 cm', src: '/akrilik-40x40-3.JPG', category: 'akrilik' },
-  { id: 'akrilik-16', title: '', year: '', medium: 'Akrilik, tuval', size: '40 × 50 cm', src: '/akrilik-40x50.JPG', category: 'akrilik' },
-  { id: 'akrilik-17', title: '', year: '', medium: 'Akrilik, tuval', size: '40 × 50 cm', src: '/akrilik-40x50-2.jpg', category: 'akrilik' },
-  { id: 'akrilik-18', title: '', year: '', medium: 'Akrilik, tuval', size: '40 × 60 cm', src: '/akrilik-40x60.jpg', category: 'akrilik' },
-  { id: 'akrilik-19', title: '', year: '', medium: 'Akrilik, tuval', size: '40 × 60 cm', src: '/akrilik-40x60-3.JPG', category: 'akrilik' },
-  { id: 'akrilik-20', title: '', year: '', medium: 'Akrilik, tuval', size: '40 × 70 cm', src: '/akrilik-40x70.jpg', category: 'akrilik' },
-  { id: 'akrilik-21', title: '', year: '', medium: 'Akrilik, tuval', size: '40 × 70 cm', src: '/akrilik-40x70-okyanus.jpg', category: 'akrilik' },
-  { id: 'akrilik-22', title: '', year: '', medium: 'Akrilik, tuval', size: '40 × 80 cm', src: '/akrilik-40x80.jpg', category: 'akrilik' },
-  { id: 'akrilik-24', title: '', year: '', medium: 'Akrilik, tuval', size: '50 × 50 cm', src: '/akrilik-50x50.JPG', category: 'akrilik' },
-  { id: 'akrilik-25', title: '', year: '', medium: 'Akrilik, tuval', size: '50 × 70 cm', src: '/akrilik-50x70.jpg', category: 'akrilik' },
-  { id: 'akrilik-26', title: '', year: '', medium: 'Akrilik, tuval', size: '50 × 70 cm', src: '/akrilik-50x70-4.jpg', category: 'akrilik' },
-  { id: 'akrilik-27', title: '', year: '', medium: 'Akrilik, tuval', size: '70 × 90 cm', src: '/akrilik-70x90.JPG', category: 'akrilik' },
-  { id: 'akrilik-28', title: '', year: '', medium: 'Akrilik, tuval', size: '80 × 80 cm', src: '/akrilik-80x80.JPG', category: 'akrilik' },
-  { id: 'akrilik-29', title: '', year: '', medium: 'Akrilik, tuval', size: '80 × 200 cm', src: '/akrilik-80x200.JPG', category: 'akrilik' },
-  { id: 'akrilik-30', title: '', year: '', medium: 'Akrilik, tuval', size: '', src: '/akrilik-80x802.jpg', category: 'akrilik' },
+  { id: 'akrilik-01', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '60 x 90 cm', src: '/akrilik.JPG', category: 'akrilik' },
+  { id: 'akrilik-02', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '30 × 30 cm (4’lü seri)', src: '/akrilik30-30-4lu4.JPG', category: 'akrilik' },
+  { id: 'akrilik-03', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 x 40 cm', src: '/akrilik-5.jpg', category: 'akrilik' },
+  { id: 'akrilik-04', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 x 40 cm', src: '/akrilik-6.JPG', category: 'akrilik' },
+  { id: 'akrilik-05', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 x 40 cm', src: '/akrilik-8.JPG', category: 'akrilik' },
+  { id: 'akrilik-06', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '25 x 25 cm', src: '/akrilik-9.JPG', category: 'akrilik' },
+  { id: 'akrilik-07', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '25 x 25 cm', src: '/akrilik-10.JPG', category: 'akrilik' },
+  { id: 'akrilik-08', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '25 × 25 cm', src: '/akrilik-25x30.jpg', category: 'akrilik' },
+  { id: 'akrilik-09', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '25 × 30 cm', src: '/akrilik-25x30-2.JPG', category: 'akrilik' },
+  { id: 'akrilik-10', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '30 × 30 cm (4’lü seri)', src: '/akrilik-30-30-4lu2.JPG', category: 'akrilik' },
+  { id: 'akrilik-11', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '30 × 30 cm', src: '/akrilik-30x30.jpg', category: 'akrilik' },
+  { id: 'akrilik-12', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '30 × 30 cm (4’lü seri)', src: '/akrilik-30x30-4lu1.JPG', category: 'akrilik' },
+  { id: 'akrilik-13', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '30 × 30 cm (4’lü seri)', src: '/akrilik-30x30-4lu3.JPG', category: 'akrilik' },
+  { id: 'akrilik-14', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 40 cm', src: '/akrilik-40x40.jpg', category: 'akrilik' },
+  { id: 'akrilik-15', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 40 cm', src: '/akrilik-40x40-3.JPG', category: 'akrilik' },
+  { id: 'akrilik-16', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 50 cm', src: '/akrilik-40x50.JPG', category: 'akrilik' },
+  { id: 'akrilik-17', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 50 cm', src: '/akrilik-40x50-2.jpg', category: 'akrilik' },
+  { id: 'akrilik-18', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 60 cm', src: '/akrilik-40x60.jpg', category: 'akrilik' },
+  { id: 'akrilik-19', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 60 cm', src: '/akrilik-40x60-3.JPG', category: 'akrilik' },
+  { id: 'akrilik-20', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 70 cm', src: '/akrilik-40x70.jpg', category: 'akrilik' },
+  { id: 'akrilik-21', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 70 cm', src: '/akrilik-40x70-okyanus.jpg', category: 'akrilik' },
+  { id: 'akrilik-22', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 80 cm', src: '/akrilik-40x80.jpg', category: 'akrilik' },
+  { id: 'akrilik-24', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '50 × 50 cm', src: '/akrilik-50x50.JPG', category: 'akrilik' },
+  { id: 'akrilik-25', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '50 × 70 cm', src: '/akrilik-50x70.jpg', category: 'akrilik' },
+  { id: 'akrilik-26', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '50 × 70 cm', src: '/akrilik-50x70-4.jpg', category: 'akrilik' },
+  { id: 'akrilik-27', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '70 × 90 cm', src: '/akrilik-70x90.JPG', category: 'akrilik' },
+  { id: 'akrilik-28', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '80 × 80 cm', src: '/akrilik-80x80.JPG', category: 'akrilik' },
+  { id: 'akrilik-29', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '80 × 200 cm', src: '/akrilik-80x200.JPG', category: 'akrilik' },
+  { id: 'akrilik-30', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '', src: '/akrilik-80x802.jpg', category: 'akrilik' },
 
   // Yuvarlak / nazar
-  { id: 'akrilik-nazar', title: '', year: '', medium: 'Akrilik, tuval', size: '', src: '/akrilik-nazar.JPG', category: 'akrilik' },
-  { id: 'akrilik-yuvarlak-1', title: '', year: '', medium: 'Karışık Teknik, yuvarlak tuval', size: 'Ø 40 cm', src: '/akrilik-yuvarlak-cap40.JPG', category: 'akrilik' },
-  { id: 'akrilik-yuvarlak-2', title: '', year: '', medium: 'Karışık Teknik, yuvarlak tuval', size: 'Ø 40 cm', src: '/akrilik-yuvarlak-cap40-2.JPG', category: 'akrilik' },
-  { id: 'akrilik-yuvarlak-3', title: '', year: '', medium: 'Karışık Teknik, yuvarlak tuval', size: 'Ø 40 cm', src: '/akrilik-yuvarlak-cap40-3.JPG', category: 'akrilik' },
-  { id: 'akrilik-yuvarlak-4', title: '', year: '', medium: 'Karışık Teknik, yuvarlak tuval', size: 'Ø 40 cm', src: '/akrilik-yuvarlak-cap40-4.JPG', category: 'akrilik' },
-  { id: 'akrilik-yuvarlak-5', title: '', year: '', medium: 'Karışık Teknik, yuvarlak tuval', size: 'Ø 40 cm', src: '/akrilik-yuvarlak-cap40-5.jpg', category: 'akrilik' },
+  { id: 'akrilik-nazar', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '', src: '/akrilik-nazar.JPG', category: 'akrilik' },
+  { id: 'akrilik-yuvarlak-1', title: '', year: '', medium: 'Yuvarlak Tuval Üzeri Akrilik', size: 'Ø 40 cm', src: '/akrilik-yuvarlak-cap40.JPG', category: 'akrilik' },
+  { id: 'akrilik-yuvarlak-2', title: '', year: '', medium: 'Yuvarlak Tuval Üzeri Akrilik', size: 'Ø 40 cm', src: '/akrilik-yuvarlak-cap40-2.JPG', category: 'akrilik' },
+  { id: 'akrilik-yuvarlak-3', title: '', year: '', medium: 'Yuvarlak Tuval Üzeri Akrilik', size: 'Ø 40 cm', src: '/akrilik-yuvarlak-cap40-3.JPG', category: 'akrilik' },
+  { id: 'akrilik-yuvarlak-4', title: '', year: '', medium: 'Yuvarlak Tuval Üzeri Akrilik', size: 'Ø 40 cm', src: '/akrilik-yuvarlak-cap40-4.JPG', category: 'akrilik' },
+  { id: 'akrilik-yuvarlak-5', title: '', year: '', medium: 'Yuvarlak Tuval Üzeri Akrilik', size: 'Ø 40 cm', src: '/akrilik-yuvarlak-cap40-5.jpg', category: 'akrilik' },
 
   // Mixed – still in akrilik block
-  { id: 'mixed-40x70', title: '', year: '', medium: 'Karışık Teknik (akrilik & yağlıboya)', size: '40 × 70 cm', src: '/mixed-40x70.jpg', category: 'akrilik' },
-  { id: 'mixed-60x50', title: '', year: '', medium: 'Karışık Teknik (akrilik & yağlıboya)', size: '60 × 50 cm', src: '/mixed-60x50.jpg', category: 'akrilik' },
+  { id: 'mixed-40x70', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 70 cm', src: '/mixed-40x70.jpg', category: 'akrilik' },
+  { id: 'mixed-60x50', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '60 × 50 cm', src: '/mixed-60x50.jpg', category: 'akrilik' },
 
   // --- A K R İ L İ K  M A N O L Y A ---
   { id: 'akrilik-manolya-40x60', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '40 × 60 cm', src: '/akrilik-manolya-40x60-artankara2024.JPG', category: 'akrilik-manolya' },
@@ -82,22 +82,22 @@ const artworks: Artwork[] = [
   { id: 'akrilik-manolya-2025-alt', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '60 x 90 cm', src: '/akrilik-manolya-artankara-2025-3.JPG', category: 'akrilik-manolya' },
 
   // --- Y A Ğ L I B O Y A  M A N O L Y A ---
-      { id: 'akrilik-manolya-30x30', title: '', year: '', medium: 'Akrilik, T.Ü.Y.B', size: '30 × 30 cm', src: '/akrilik-manolya-30x30art-ankara2024.JPG', category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-2024-main',    title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024.JPG',          category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-2024-main-2',  title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '',             src: '/yagli-boya-manolya-artankara2024.JPG',        category: 'yagliboya-manolya' },
-  { id: 'yagliboya-40x50',            title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '50 × 50 cm',   src: '/yagli-manolya-40x50-artankara2024.JPG',       category: 'yagliboya-manolya' },
-  { id: 'yagliboya-50x50',            title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '50 × 50 cm',   src: '/yagli-manolya-50x50-artankara2024-3.jpg',     category: 'yagliboya-manolya' },
-  { id: 'yagliboya-30x30-1',          title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '30 × 30 cm',   src: '/yagliboya-manolya-30x30-artankara2024.jpg',   category: 'yagliboya-manolya' },
-  { id: 'yagliboya-30x30-2',          title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '30 × 30 cm',   src: '/yagliboya-manolya-30x30-artankara2024-3.JPG', category: 'yagliboya-manolya' },
-  { id: 'yagliboya-40x80',            title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '40 × 80 cm',   src: '/yagliboya-manolya-40x80-artankara2024-2.jpg', category: 'yagliboya-manolya' },
-  { id: 'yagliboya-45x45',            title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '45 × 45 cm',   src: '/yagliboya-manolya-45x45-artankara2024.jpg',   category: 'yagliboya-manolya' },
-  { id: 'yagliboya-60x60-1',          title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '60 × 60 cm',   src: '/yagliboya-manolya-60x60-artankara2024.jpg',   category: 'yagliboya-manolya' },
-  { id: 'yagliboya-60x60-2',          title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '60 × 60 cm',   src: '/yagliboya-manolya-60x60-artankara2024-2.JPG', category: 'yagliboya-manolya' },
-  { id: 'yagliboya-100x100',          title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '100 × 100 cm', src: '/yagliboya-manolya-100x100-artankara2024.JPG', category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-3',            title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024-3.JPG',       category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-4',            title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024-4.JPG',       category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-5',            title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024-5.JPG',       category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-6',            title: '', year: '2024', medium: 'Yağlıboya, T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024-6.JPG',       category: 'yagliboya-manolya' },
+  { id: 'akrilik-manolya-30x30', title: '', year: '', medium: 'T.Ü.Y.B', size: '30 × 30 cm', src: '/akrilik-manolya-30x30art-ankara2024.JPG', category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-2024-main',    title: '', year: '2024', medium: 'T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024.JPG',          category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-2024-main-2',  title: '', year: '2024', medium: 'T.Ü.Y.B', size: '',             src: '/yagli-boya-manolya-artankara2024.JPG',        category: 'yagliboya-manolya' },
+  { id: 'yagliboya-40x50',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '50 × 50 cm',   src: '/yagli-manolya-40x50-artankara2024.JPG',       category: 'yagliboya-manolya' },
+  { id: 'yagliboya-50x50',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '50 × 50 cm',   src: '/yagli-manolya-50x50-artankara2024-3.jpg',     category: 'yagliboya-manolya' },
+  { id: 'yagliboya-30x30-1',          title: '', year: '2024', medium: 'T.Ü.Y.B', size: '30 × 30 cm',   src: '/yagliboya-manolya-30x30-artankara2024.jpg',   category: 'yagliboya-manolya' },
+  { id: 'yagliboya-30x30-2',          title: '', year: '2024', medium: 'T.Ü.Y.B', size: '30 × 30 cm',   src: '/yagliboya-manolya-30x30-artankara2024-3.JPG', category: 'yagliboya-manolya' },
+  { id: 'yagliboya-40x80',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '40 × 80 cm',   src: '/yagliboya-manolya-40x80-artankara2024-2.jpg', category: 'yagliboya-manolya' },
+  { id: 'yagliboya-45x45',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '45 × 45 cm',   src: '/yagliboya-manolya-45x45-artankara2024.jpg',   category: 'yagliboya-manolya' },
+  { id: 'yagliboya-60x60-1',          title: '', year: '2024', medium: 'T.Ü.Y.B', size: '60 × 60 cm',   src: '/yagliboya-manolya-60x60-artankara2024.jpg',   category: 'yagliboya-manolya' },
+  { id: 'yagliboya-60x60-2',          title: '', year: '2024', medium: 'T.Ü.Y.B', size: '60 × 60 cm',   src: '/yagliboya-manolya-60x60-artankara2024-2.JPG', category: 'yagliboya-manolya' },
+  { id: 'yagliboya-100x100',          title: '', year: '2024', medium: 'T.Ü.Y.B', size: '100 × 100 cm', src: '/yagliboya-manolya-100x100-artankara2024.JPG', category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-3',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024-3.JPG',       category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-4',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024-4.JPG',       category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-5',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024-5.JPG',       category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-6',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024-6.JPG',       category: 'yagliboya-manolya' },
 
   // Eski Manolya (klasik)
   { id: 'manolya2', title: '', year: '', medium: 'Yağlıboya, T.Ü.Y.B', size: '100 x 100 cm ', src: '/manolya2.JPG', category: 'yagliboya-manolya' },
@@ -140,13 +140,13 @@ export default function ResimlerPage() {
     },
     {
       key: 'akrilik-manolya',
-      label: 'Akrilik Manolya Serisi',
-      subtitle: 'Manolyanın akrilik yorumları, çağdaş bir dilde.',
+      label: 'Akrilik Üzeri Yağlı Boya Manolya Serisi',
+      subtitle: 'Manolyanın akrilik üzeri yorumları, çağdaş bir dilde.',
     },
     {
       key: 'yagliboya-manolya',
-      label: 'Yağlıboya Manolya',
-      subtitle: 'Klasik, zamansız ve resim kariyerinin imzası haline gelen seri.',
+      label: 'Yağlı Boya Manolyalar',
+      subtitle: 'Klasik, zamansız ve sanatçının resim kariyerinin imzası haline gelen seri.',
     },
   ];
 
@@ -184,7 +184,7 @@ export default function ResimlerPage() {
               Resimler
             </h1>
             <p className="max-w-xl font-urbanist text-base sm:text-lg text-neutral-700 leading-relaxed">
-              Sevim Güleç’in seçili yağlıboya, akrilik ve karışık teknik
+              Sevim Güleç’in seçili yağlı boya, akrilik ve karışık teknik
               eserlerinden bir seçki.
             </p>
           </div>
@@ -360,6 +360,49 @@ export default function ResimlerPage() {
           </div>
         </div>
       )}
+
+      {/* 🔼 Scroll-to-top button */}
+      <ScrollToTopButton />
     </main>
+  );
+}
+
+/** Simple floating scroll-to-top button fixed bottom-right */
+function ScrollToTopButton() {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      setVisible(window.scrollY > 300); // show after a bit of scroll
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  if (!visible) return null;
+
+  return (
+    <button
+      type="button"
+      onClick={() =>
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+        })
+      }
+      className="
+        fixed bottom-6 right-6 z-[80]
+        rounded-full bg-neutral-900 text-white
+        px-3 py-2 shadow-lg
+        flex items-center gap-2
+        text-xs font-urbanist uppercase tracking-[0.18em]
+        hover:bg-neutral-800
+        focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400
+      "
+      aria-label="Yukarı dön"
+    >
+      ↑
+      <span className="hidden sm:inline">Yukarı</span>
+    </button>
   );
 }

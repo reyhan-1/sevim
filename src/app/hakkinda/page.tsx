@@ -94,7 +94,7 @@ export default function HakkindaPage() {
 
                   <div className="font-urbanist text-[15px] md:text-[16px] text-neutral-700 leading-7 md:leading-8 space-y-4">
                     <p>
-                      1950 yılında Silifke&apos;de doğdu. Liseyi Silifke&apos;de
+                      Silifke&apos;de doğdu. Liseyi Silifke&apos;de
                       tamamladıktan sonra Mersin Kız Öğretmen Okulu&apos;ndan
                       mezun oldu. Öğretmenlik kariyerine devam ederken yüksek
                       lisansını tamamladı ve 15 yıl süren öğretmenlik görevinin
