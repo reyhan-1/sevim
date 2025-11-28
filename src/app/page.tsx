@@ -175,17 +175,17 @@ export default function Home() {
                     {
                       src: '/manolya2.JPG',
                       title: '',
-                      meta: '2010 · T.Ü.Y',
+                      meta: '2010 · T.Ü.Y.B',
                     },
                     {
                       src: '/yagliboya-manolya-60x60-artankara2024.jpg',
                       title: '',
-                      meta: '2024 · T.Ü.Y',
+                      meta: '2024 · T.Ü.Y.B',
                     },
                     {
                       src: '/yagliboya-manolya-30x30-artankara2024.jpg',
                       title: '',
-                      meta: '2023 · T.Ü.Y',
+                      meta: '2023 · T.Ü.Y.B',
                     },
                   ].map((item) => (
                     <figure
@@ -217,7 +217,7 @@ export default function Home() {
               <section className="space-y-5">
                 <div className="flex items-center justify-between gap-4">
                   <h3 className="font-goldman text-xl sm:text-2xl tracking-tight text-neutral-900">
-                    Akrilik &amp; Yağlıboya
+                    Karışık Teknik
                   </h3>
                 </div>
 
