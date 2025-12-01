@@ -82,9 +82,9 @@ const artworks: Artwork[] = [
 
   // --- Y A Ğ L I B O Y A  M A N O L Y A ---
   { id: 'akrilik-manolya-30x30', title: '', year: '', medium: 'T.Ü.Y.B', size: '30 × 30 cm', src: '/akrilik-manolya-30x30art-ankara2024.JPG', category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-2024-main',    title: '', year: '2024', medium: 'T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024.JPG',          category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-2024-main-2',  title: '', year: '2024', medium: 'T.Ü.Y.B', size: '',             src: '/yagli-boya-manolya-artankara2024.JPG',        category: 'yagliboya-manolya' },
-  { id: 'yagliboya-40x50',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '50 × 50 cm',   src: '/yagli-manolya-40x50-artankara2024.JPG',       category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-2024-main',    title: '', year: '2024', medium: 'T.Ü.Y.B', size: '60 x 60 cm ',             src: '/yagliboya-manolya-artankara2024.JPG',          category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-2024-main-2',  title: '', year: '2024', medium: 'T.Ü.Y.B', size: '45 x 45 cm',             src: '/yagli-boya-manolya-artankara2024.JPG',        category: 'yagliboya-manolya' },
+  { id: 'yagliboya-40x50',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '50 × 40 cm',   src: '/yagli-manolya-40x50-artankara2024.JPG',       category: 'yagliboya-manolya' },
   { id: 'yagliboya-50x50',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '50 × 50 cm',   src: '/yagli-manolya-50x50-artankara2024-3.jpg',     category: 'yagliboya-manolya' },
   { id: 'yagliboya-30x30-1',          title: '', year: '2024', medium: 'T.Ü.Y.B', size: '30 × 30 cm',   src: '/yagliboya-manolya-30x30-artankara2024.jpg',   category: 'yagliboya-manolya' },
   { id: 'yagliboya-30x30-2',          title: '', year: '2024', medium: 'T.Ü.Y.B', size: '30 × 30 cm',   src: '/yagliboya-manolya-30x30-artankara2024-3.JPG', category: 'yagliboya-manolya' },
@@ -93,13 +93,11 @@ const artworks: Artwork[] = [
   { id: 'yagliboya-60x60-1',          title: '', year: '2024', medium: 'T.Ü.Y.B', size: '60 × 60 cm',   src: '/yagliboya-manolya-60x60-artankara2024.jpg',   category: 'yagliboya-manolya' },
   { id: 'yagliboya-60x60-2',          title: '', year: '2024', medium: 'T.Ü.Y.B', size: '60 × 60 cm',   src: '/yagliboya-manolya-60x60-artankara2024-2.JPG', category: 'yagliboya-manolya' },
   { id: 'yagliboya-100x100',          title: '', year: '2024', medium: 'T.Ü.Y.B', size: '100 × 100 cm', src: '/yagliboya-manolya-100x100-artankara2024.JPG', category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-3',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024-3.JPG',       category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-4',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024-4.JPG',       category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-5',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024-5.JPG',       category: 'yagliboya-manolya' },
-  { id: 'yagliboya-art-6',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '',             src: '/yagliboya-manolya-artankara2024-6.JPG',       category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-3',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '45 x 45 cm',             src: '/yagliboya-manolya-artankara2024-3.JPG',       category: 'yagliboya-manolya' },
+  { id: 'yagliboya-art-6',            title: '', year: '2024', medium: 'T.Ü.Y.B', size: '70 x 100 cm',             src: '/yagliboya-manolya-artankara2024-6.JPG',       category: 'yagliboya-manolya' },
 
   // Eski Manolya (klasik)
-  { id: 'manolya2', title: '', year: '', medium: 'Yağlı Boya, T.Ü.Y.B', size: '80 x 80 cm ', src: '/manolya2.JPG', category: 'yagliboya-manolya' },
+  { id: 'manolya2', title: '', year: '', medium: 'Yağlı Boya, T.Ü.Y.B', size: '90 x 90 cm ', src: '/manolya2.JPG', category: 'yagliboya-manolya' },
 ];
 
 // map id -> index for the lightbox
