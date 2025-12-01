@@ -23,6 +23,9 @@ type Artwork = {
 
 const artworks: Artwork[] = [
   // --- A K R İ L İ K ---
+    { id: 'akrilik-0', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 x 70 cm', src: '/dokme-40x70.JPG', category: 'akrilik' },
+  { id: 'akrilik-1', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '80 x 80 cm', src: '/dokme-80x80.jpg', category: 'akrilik' },
+
   { id: 'akrilik-01', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '60 x 90 cm', src: '/akrilik.JPG', category: 'akrilik' },
   { id: 'akrilik-02', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '30 × 30 cm (4’lü seri)', src: '/akrilik30-30-4lu4.JPG', category: 'akrilik' },
   { id: 'akrilik-03', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 x 40 cm', src: '/akrilik-5.jpg', category: 'akrilik' },
