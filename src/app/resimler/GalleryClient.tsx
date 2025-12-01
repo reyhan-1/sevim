@@ -42,7 +42,7 @@ const artworks: Artwork[] = [
   { id: 'akrilik-17', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 40 cm', src: '/akrilik-40x50-2.jpg', category: 'akrilik' },
   { id: 'akrilik-18', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '60 × 40 cm', src: '/akrilik-40x60.jpg', category: 'akrilik' },
   { id: 'akrilik-19', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 60 cm', src: '/akrilik-40x60-3.JPG', category: 'akrilik' },
-  { id: 'akrilik-20', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 70 cm', src: '/akrilik-40x70s.webp', category: 'akrilik' },
+  { id: 'akrilik-20', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 70 cm', src: '/akrilik-40x70x.jpg', category: 'akrilik' },
   { id: 'akrilik-21', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '40 × 70 cm', src: '/akrilik-40x70-okyanus.jpg', category: 'akrilik' },
   { id: 'akrilik-22', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '80 x 40 cm', src: '/akrilik-40x80.jpg', category: 'akrilik' },
   { id: 'akrilik-24', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '50 × 50 cm', src: '/akrilik-50x50.JPG', category: 'akrilik' },
