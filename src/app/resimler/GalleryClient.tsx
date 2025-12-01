@@ -65,20 +65,20 @@ const artworks: Artwork[] = [
   { id: 'mixed-60x50', title: '', year: '', medium: 'Tuval Üzeri Akrilik', size: '60 × 50 cm', src: '/mixed-60x50.jpg', category: 'akrilik' },
 
   // --- A K R İ L İ K  M A N O L Y A ---
-  { id: 'akrilik-manolya-40x60', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '40 × 60 cm', src: '/akrilik-manolya-40x60-artankara2024.JPG', category: 'akrilik-manolya' },
-  { id: 'akrilik-manolya-50x70', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '50 × 70 cm', src: '/akrilik-manolya-50-70.jpg', category: 'akrilik-manolya' },
+  { id: 'akrilik-manolya-40x60', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '60 x 40 cm', src: '/akrilik-manolya-40x60-artankara2024.JPG', category: 'akrilik-manolya' },
+  { id: 'akrilik-manolya-50x70', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '70 x 50 cm', src: '/akrilik-manolya-50-70.jpg', category: 'akrilik-manolya' },
   { id: 'akrilik-manolya-50x50-1', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '50 × 50 cm', src: '/akrilik-manolya-50x50-artankara2025.jpg', category: 'akrilik-manolya' },
   { id: 'akrilik-manolya-50x50-2', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '50 × 50 cm', src: '/akrilik-manolya-50x50-artankara2025-2.jpg', category: 'akrilik-manolya' },
-  { id: 'akrilik-manolya-60x50-1', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '60 × 50 cm', src: '/akrilik-manolya-60x50-artankara2025.jpg', category: 'akrilik-manolya' },
+  { id: 'akrilik-manolya-60x50-1', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '50 x 60 cm', src: '/akrilik-manolya-60x50-artankara2025.jpg', category: 'akrilik-manolya' },
   { id: 'akrilik-manolya-70x50', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '70 × 50 cm', src: '/akrilik-manolya-70x50-artankara20250turuncu.jpg', category: 'akrilik-manolya' },
   { id: 'akrilik-manolya-80x40', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '80 × 40 cm', src: '/akrilik-manolya-80x40-artankara2025.JPG', category: 'akrilik-manolya' },
-  { id: 'akrilik-manolya-100x100', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '100 × 100 cm', src: '/akrilik-manolya-100x100.JPG', category: 'akrilik-manolya' },
-  { id: 'akrilik-manolya-100x150', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '100 × 150 cm', src: '/akrilik-manolya-100x150.JPG', category: 'akrilik-manolya' },
+  { id: 'akrilik-manolya-100x100', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '80 x 80 cm', src: '/akrilik-manolya-100x100.JPG', category: 'akrilik-manolya' },
+  { id: 'akrilik-manolya-100x150', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '100 × 80 cm', src: '/akrilik-manolya-100x150.JPG', category: 'akrilik-manolya' },
   { id: 'akrilik-manolya-arili', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '50 x 70 cm', src: '/akrilik-manolya-artankara2024-arili.JPG', category: 'akrilik-manolya' },
   { id: 'akrilik-manolya-2025-3', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '50 x 50 cm', src: '/akrilik-manolya-artankara2025-3.JPG', category: 'akrilik-manolya' },
-  { id: 'akrilik-manolya-2025-5', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '60 x 40 cm', src: '/akrilik-manolya-artankara2025-5.JPG', category: 'akrilik-manolya' },
+  { id: 'akrilik-manolya-2025-5', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '70 x 50 cm', src: '/akrilik-manolya-artankara2025-5.JPG', category: 'akrilik-manolya' },
   { id: 'akrilik-manolya-2025-8', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '30 x 25 cm', src: '/akrilik-manolya-artankara2025-8.JPG', category: 'akrilik-manolya' },
-  { id: 'akrilik-manolya-2025-alt', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '60 x 90 cm', src: '/akrilik-manolya-artankara-2025-3.JPG', category: 'akrilik-manolya' },
+  { id: 'akrilik-manolya-2025-alt', title: '', year: '', medium: 'Karışık Teknik, tuval', size: '50 x 70 cm', src: '/akrilik-manolya-artankara-2025-3.JPG', category: 'akrilik-manolya' },
 
   // --- Y A Ğ L I B O Y A  M A N O L Y A ---
   { id: 'akrilik-manolya-30x30', title: '', year: '', medium: 'T.Ü.Y.B', size: '30 × 30 cm', src: '/akrilik-manolya-30x30art-ankara2024.JPG', category: 'yagliboya-manolya' },
